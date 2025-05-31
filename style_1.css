@@ -1,0 +1,97 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(226, 233, 233);
+    color: black;
+    line-height: 1.4;
+}
+/* these are known as selectors*/
+/* also can be of teh form like #id-name or .class-name */
+h1,h2{
+    font-weight: 700;
+    padding-top: 10px;
+}
+h1{
+    color: azure;
+}
+p{
+    font-weight: 400;
+}
+footer p{
+    color: azure;
+}
+header p{
+    color: azure;
+}
+a{
+    color: rgb(17, 199, 199);
+    text-decoration: dotted;
+    padding-bottom: 10px;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+header,footer{
+    background: linear-gradient(to right, #831bcd, #f9620b);
+    border-radius: 1ch;
+    padding: 1%;
+}
+
+section{
+    background-color: aliceblue;
+    border-radius: 1ch;
+    width: 700px;
+}
+
+img{
+    border-radius: 2%;
+    box-shadow: 0 15px 15px black;
+}
+
+form{
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background: #ffff;
+    box-shadow: o 5px 15px black;
+}
+form textarea{
+    width: calc(100%-20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form button{
+    background: #007bff;
+    color: #ffff;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+font button:hover {
+    background: #0056b3;
+}
+button {
+    color: azure;
+    width: 200px;
+    height: 28px;
+    background: linear-gradient(to right, #831bcd, #f9620b);
+    border-radius: 1ch;
+    border-color: azure;
+}
+
+button:hover {
+    background: linear-gradient(to right,#f9620b,#831bcd);
+}
+.me{
+    width: 200px;
+}
+div{
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
